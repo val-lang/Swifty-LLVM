@@ -13,4 +13,5 @@ let package = Package(
 
     // LLVM's C API
     .systemLibrary(name: "llvmc", pkgConfig: "llvm"),
-  ])
+  ],
+  cxxLanguageStandard: .cxx20)
